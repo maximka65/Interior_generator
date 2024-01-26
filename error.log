@@ -1,0 +1,66 @@
+[2023-10-09 11:35:02 +0300] [549578] [INFO] Starting gunicorn 21.2.0
+[2023-10-09 11:35:02 +0300] [549578] [INFO] Listening at: http://127.0.0.1:8000 (549578)
+[2023-10-09 11:35:02 +0300] [549578] [INFO] Using worker: sync
+[2023-10-09 11:35:02 +0300] [549579] [INFO] Booting worker with pid: 549579
+[2023-10-09 11:35:02 +0300] [549580] [INFO] Booting worker with pid: 549580
+[2023-10-09 11:35:02 +0300] [549581] [INFO] Booting worker with pid: 549581
+[2023-10-09 11:35:32 +0300] [549578] [INFO] Handling signal: int
+[2023-10-09 08:35:32 +0000] [549580] [INFO] Worker exiting (pid: 549580)
+[2023-10-09 08:35:32 +0000] [549579] [INFO] Worker exiting (pid: 549579)
+[2023-10-09 08:35:32 +0000] [549581] [INFO] Worker exiting (pid: 549581)
+[2023-10-09 11:35:33 +0300] [549578] [ERROR] Worker (pid:549579) was sent SIGINT!
+[2023-10-09 11:35:33 +0300] [549578] [ERROR] Worker (pid:549581) was sent SIGINT!
+[2023-10-09 11:35:33 +0300] [549578] [ERROR] Worker (pid:549580) was sent SIGINT!
+[2023-10-09 11:35:33 +0300] [549578] [INFO] Shutting down: Master
+[2023-10-09 11:35:45 +0300] [549585] [INFO] Starting gunicorn 21.2.0
+[2023-10-09 11:35:45 +0300] [549585] [INFO] Listening at: http://127.0.0.1:8000 (549585)
+[2023-10-09 11:35:45 +0300] [549585] [INFO] Using worker: sync
+[2023-10-09 11:35:45 +0300] [549586] [INFO] Booting worker with pid: 549586
+[2023-10-09 11:35:45 +0300] [549587] [INFO] Booting worker with pid: 549587
+[2023-10-09 11:35:45 +0300] [549588] [INFO] Booting worker with pid: 549588
+[2023-10-09 11:35:51 +0300] [549585] [ERROR] Worker (pid:549586) was sent SIGHUP!
+[2023-10-09 11:35:51 +0300] [549585] [ERROR] Worker (pid:549588) was sent SIGHUP!
+[2023-10-09 11:35:51 +0300] [549589] [INFO] Booting worker with pid: 549589
+[2023-10-09 11:35:51 +0300] [549585] [ERROR] Worker (pid:549587) was sent SIGHUP!
+[2023-10-09 11:35:51 +0300] [549590] [INFO] Booting worker with pid: 549590
+[2023-10-09 11:35:51 +0300] [549585] [INFO] Handling signal: hup
+[2023-10-09 11:35:51 +0300] [549585] [INFO] Hang up: Master
+[2023-10-09 11:35:51 +0300] [549591] [INFO] Booting worker with pid: 549591
+[2023-10-09 11:35:51 +0300] [549593] [INFO] Booting worker with pid: 549593
+[2023-10-09 11:35:51 +0300] [549592] [INFO] Booting worker with pid: 549592
+[2023-10-09 08:35:52 +0000] [549589] [INFO] Worker exiting (pid: 549589)
+[2023-10-09 08:35:52 +0000] [549590] [INFO] Worker exiting (pid: 549590)
+[2023-10-09 11:35:52 +0300] [549585] [ERROR] Worker (pid:549590) was sent SIGTERM!
+[2023-10-09 11:35:52 +0300] [549585] [ERROR] Worker (pid:549589) was sent SIGTERM!
+[2023-10-09 11:44:54 +0300] [549907] [INFO] Starting gunicorn 21.2.0
+[2023-10-09 11:44:54 +0300] [549907] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-10-09 11:44:54 +0300] [549907] [ERROR] Retrying in 1 second.
+[2023-10-09 11:44:55 +0300] [549907] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-10-09 11:44:55 +0300] [549907] [ERROR] Retrying in 1 second.
+[2023-10-09 11:44:56 +0300] [549907] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-10-09 11:44:56 +0300] [549907] [ERROR] Retrying in 1 second.
+[2023-10-09 11:44:57 +0300] [549907] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-10-09 11:44:57 +0300] [549907] [ERROR] Retrying in 1 second.
+[2023-10-09 11:44:58 +0300] [549907] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-10-09 11:44:58 +0300] [549907] [ERROR] Retrying in 1 second.
+[2023-10-09 11:44:59 +0300] [549907] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-10-09 11:45:03 +0300] [549908] [INFO] Starting gunicorn 21.2.0
+[2023-10-09 11:45:03 +0300] [549908] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-10-09 11:45:03 +0300] [549908] [ERROR] Retrying in 1 second.
+[2023-10-09 11:45:04 +0300] [549908] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-10-09 11:45:04 +0300] [549908] [ERROR] Retrying in 1 second.
+[2023-10-09 11:45:05 +0300] [549908] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-10-09 11:45:05 +0300] [549908] [ERROR] Retrying in 1 second.
+[2023-10-09 11:45:06 +0300] [549908] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-10-09 11:45:06 +0300] [549908] [ERROR] Retrying in 1 second.
+[2023-10-09 11:45:39 +0300] [549585] [INFO] Handling signal: term
+[2023-10-09 08:45:39 +0000] [549591] [INFO] Worker exiting (pid: 549591)
+[2023-10-09 08:45:39 +0000] [549592] [INFO] Worker exiting (pid: 549592)
+[2023-10-09 08:45:39 +0000] [549593] [INFO] Worker exiting (pid: 549593)
+[2023-10-09 11:45:39 +0300] [549585] [ERROR] Worker (pid:549593) was sent SIGTERM!
+[2023-10-09 11:45:39 +0300] [549585] [ERROR] Worker (pid:549592) was sent SIGTERM!
+[2023-10-09 11:45:39 +0300] [549585] [ERROR] Worker (pid:549591) was sent SIGTERM!
+[2023-10-09 11:45:39 +0300] [549585] [INFO] Shutting down: Master
+[2023-10-09 13:02:03 +0300] [549908] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-10-09 13:02:03 +0300] [549908] [ERROR] Retrying in 1 second.
+[2023-10-09 13:02:04 +0300] [549908] [ERROR] Can't connect to ('127.0.0.1', 8000)

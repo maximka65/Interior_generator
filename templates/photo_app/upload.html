@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Upload</title>
+</head>
+<body>
+    <h1>Upload an Image</h1>
+    <form action="" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <label for="image">Image:</label>
+        <input type="file" name="image" accept="image/*"><br>
+
+        <label for="generation_type">Generation Type:</label>
+        <select name="generation_type">
+            <option value="creative">Креативный</option>
+            <option value="realistic">Реалистичный</option>
+        </select><br>
+
+        <label for="room_type">Room Type:</label>
+        <select name="room_type">
+            <option value=""></option>
+            <option value="bedroom">Спальня</option>
+            <option value="closet">Гардероб</option>
+            <option value="kitchen">Кухня</option>
+            <option value="living_room">Гостиная</option>
+            <option value="hallway">Прихожая</option>
+            <option value="bathroom">Ванная комната</option>
+        </select><br>
+
+        <label for="style">Style:</label>
+        <select name="style">
+            <option value=""></option>
+            <option value="classic">Классика</option>
+            <option value="neoclassic">Неоклассика</option>
+            <option value="provence">Прованс</option>
+            <option value="modern">Современный</option>
+        </select><br>
+
+        <label for="facade_form">Facade Form:</label>
+        <input type="text" name="facade_form"><br>
+
+        <label for="hints">Hints:</label>
+        <input type="text" name="hints"><br>
+
+        <button type="submit">Generate Interior</button>
+    </form>
+</body>
+</html>
